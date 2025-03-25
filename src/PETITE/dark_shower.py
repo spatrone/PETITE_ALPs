@@ -101,7 +101,7 @@ class DarkShower(Shower):
             mV_in_GeV: vector mass in GeV
             mode: determines whether mV is set to MV_in_GeV or the nearest value for which integrators have been trained
         """
-
+        
         self.active_processes = active_processes
         if self.active_processes is None:
             self.active_processes = dark_process_codes
