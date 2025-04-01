@@ -15,7 +15,14 @@ default_ids = {"PID":11, "ID":1, "parent_PID":22,
                "mass":None, "stability":"stable",
                "production_time":0.0,
                "decay_time":0.0,
-               "interaction_time":0.0}
+               "interaction_time":0.0
+               
+               ##SamADD_START
+                ,"kinematics_vars": None
+                ,"parent_E": None
+                ##SamADD_END
+              
+              }
 
 #pi0 (111) decays to gamma gamma with Br = 0.98823
 #eta (221) decays to gamma gamma with Br = 0.3936
